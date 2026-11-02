@@ -1,0 +1,1 @@
+self.addEventListener('install',e=>{e.waitUntil(caches.open('multimodal-genai-v6').then(c=>c.addAll(['/','/index.html','/multi-modal-gen-ai.html','/industrial-gen-ai.html','/manifest.json'])))});self.addEventListener('fetch',e=>{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});

@@ -1,0 +1,16 @@
+{
+  "name": "INDUX-OS Multi-Modal Gen-AI v6.0 - Industrial Safety AI",
+  "short_name": "Multi-Modal-Gen-AI",
+  "description": "Factory Maintenance Assistant - Face + Voice + PPE + IR Thermal + Video RAG + Regional Languages - PS-02",
+  "start_url": "/multi-modal-gen-ai.html",
+  "display": "standalone",
+  "background_color": "#050a14",
+  "theme_color": "#00f5ff",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
